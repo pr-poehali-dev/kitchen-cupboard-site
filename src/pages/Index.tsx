@@ -106,7 +106,22 @@ const Index = () => {
               учитывая все ваши потребности и предпочтения
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="aspect-video overflow-hidden">
+                <img 
+                  src="/img/1a77f0af-9be2-4a27-b737-e06bfb132420.jpg" 
+                  alt="Кухня в стиле минимализм" 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <CardHeader>
+                <CardTitle className="font-playfair text-rich-brown">Минимализм</CardTitle>
+                <CardDescription className="font-lato">
+                  Чистые линии, скрытые ручки, встроенная техника и максимум функциональности
+                </CardDescription>
+              </CardHeader>
+            </Card>
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video overflow-hidden">
                 <img 
@@ -118,7 +133,7 @@ const Index = () => {
               <CardHeader>
                 <CardTitle className="font-playfair text-rich-brown">Современная кухня</CardTitle>
                 <CardDescription className="font-lato">
-                  Минималистичный дизайн с мраморными столешницами и встроенной техникой
+                  Лаконичный дизайн с мраморными столешницами и встроенной техникой
                 </CardDescription>
               </CardHeader>
             </Card>
