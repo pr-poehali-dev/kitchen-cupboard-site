@@ -15,7 +15,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <h1 className="text-2xl font-playfair font-bold text-rich-brown">
-                Элитная Мебель
+                CANHEA
               </h1>
             </div>
             <nav className="hidden md:flex space-x-8">
@@ -291,7 +291,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h4 className="text-2xl font-playfair font-bold mb-4">Элитная Мебель</h4>
+              <h4 className="text-2xl font-playfair font-bold mb-4">CANHEA</h4>
               <p className="text-gray-300 font-lato">
                 Создаем уникальную мебель по индивидуальным заказам с 2008 года
               </p>
@@ -325,7 +325,7 @@ const Index = () => {
           </div>
           <Separator className="my-8 bg-gray-600" />
           <div className="text-center text-gray-400 font-lato">
-            <p>&copy; 2024 Элитная Мебель. Все права защищены.</p>
+            <p>&copy; 2024 CANHEA. Все права защищены.</p>
           </div>
         </div>
       </footer>
