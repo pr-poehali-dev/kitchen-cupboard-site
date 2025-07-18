@@ -106,7 +106,7 @@ const Index = () => {
               учитывая все ваши потребности и предпочтения
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video overflow-hidden">
                 <img 
@@ -125,34 +125,51 @@ const Index = () => {
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video overflow-hidden">
                 <img 
-                  src="/img/14eb51b6-7fa6-4fbe-a0c6-05f71cfb0eed.jpg" 
-                  alt="Современная кухня" 
+                  src="/img/5b5c9fca-6257-4554-8ad0-788f7bad5102.jpg" 
+                  alt="Кухня в стиле лофт" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <CardHeader>
-                <CardTitle className="font-playfair text-rich-brown">Современная кухня</CardTitle>
+                <CardTitle className="font-playfair text-rich-brown">Лофт</CardTitle>
                 <CardDescription className="font-lato">
-                  Лаконичный дизайн с мраморными столешницами и встроенной техникой
+                  Кирпичные стены, индустриальные элементы, открытые конструкции и брутальные материалы
                 </CardDescription>
               </CardHeader>
             </Card>
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="aspect-video overflow-hidden">
                 <img 
-                  src="/img/c31dca0f-437e-47d5-9fdc-3ba075ea3b9e.jpg" 
-                  alt="Классическая кухня" 
+                  src="/img/14edccef-fda5-4aed-85e4-48942f667891.jpg" 
+                  alt="Скандинавская кухня" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <CardHeader>
-                <CardTitle className="font-playfair text-rich-brown">Классическая кухня</CardTitle>
+                <CardTitle className="font-playfair text-rich-brown">Скандинавский стиль</CardTitle>
                 <CardDescription className="font-lato">
-                  Традиционный стиль с теплыми оттенками дерева и элегантной фурнитурой
+                  Светлое дерево, белые стены, натуральные материалы и уютная атмосфера
                 </CardDescription>
               </CardHeader>
             </Card>
             <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="aspect-video overflow-hidden">
+                <img 
+                  src="/img/39071caa-819b-4fc6-9637-01356e823d68.jpg" 
+                  alt="Кухня в стиле хай-тек" 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <CardHeader>
+                <CardTitle className="font-playfair text-rich-brown">Хай-тек</CardTitle>
+                <CardDescription className="font-lato">
+                  Глянцевые поверхности, LED-подсветка, стекло и интеграция современных технологий
+                </CardDescription>
+              </CardHeader>
+            </Card>
+          </div>
+          <div className="mt-8 text-center">
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow max-w-md mx-auto">
               <div className="aspect-video bg-gradient-to-br from-rich-brown to-dark-walnut flex items-center justify-center">
                 <div className="text-center text-white">
                   <Icon name="Plus" size={48} className="mx-auto mb-4" />
